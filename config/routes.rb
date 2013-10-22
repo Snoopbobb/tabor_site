@@ -7,6 +7,10 @@ TaborSite::Application.routes.draw do
 
   match '/contact', to: "static_pages#contact"
 
+  match '/experience', to: "static_pages#experience"
+
+  match '/testimonials', to: "static_pages#testimonials"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
