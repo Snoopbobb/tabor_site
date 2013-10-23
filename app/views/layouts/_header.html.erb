@@ -13,14 +13,14 @@
 <body>
 <header>
   <div id="topper">
-    <h1>Welcome to Bob Tabor's Site!  A freelance web design professional, based out of Scottsdale AZ.</h1>
+    <h1>Bob Tabor</h1>
+    <nav id="main_nav">
+        <ul>
+         <li><%= link_to "Home", root_path %></li>
+         <li><%= link_to "Portfolio", portfolio_path %></li>
+         <li><%= link_to "About", about_path %></li>
+         <li><%= link_to "Contact", contact_path %></li>
+        </ul>
+     </nav>
   </div>
-  <nav id="main_nav">
-    <ul>
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Portfolio", portfolio_path %></li>
-      <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-    </ul>
-  </nav>
 </header>

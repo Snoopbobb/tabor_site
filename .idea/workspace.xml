@@ -6,15 +6,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/application.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382151261630" ignored="false" />
     <file path="/routes.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382485952436" ignored="false" />
-    <file path="/_header.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382392690870" ignored="false" />
+    <file path="/_header.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382547567766" ignored="false" />
     <file path="/footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382154079220" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382460035777" ignored="false" />
-    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382490916613" ignored="false" />
+    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382548910833" ignored="false" />
     <file path="/Gemfile" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382153324067" ignored="false" />
     <file path="/production.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382153373634" ignored="false" />
     <file path="/_footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382484364346" ignored="false" />
-    <file path="/home.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382462544040" ignored="false" />
-    <file path="/js-image-slider.css" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382458472787" ignored="false" />
+    <file path="/home.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382548828926" ignored="false" />
+    <file path="/js-image-slider.css" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382549242065" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382474696397" ignored="false" />
     <file path="/testimonials.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382460617096" ignored="false" />
     <file path="/experience.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382490421374" ignored="false" />
@@ -37,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.16798419">
+            <state line="80" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,16 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="96" selection-start="613" selection-end="613" vertical-scroll-proportion="-9.153846">
+            <state line="15" column="68" selection-start="678" selection-end="678" vertical-scroll-proportion="-9.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="24" selection-start="771" selection-end="771" vertical-scroll-proportion="-14.884615">
               <folding />
             </state>
           </provider>
@@ -59,7 +68,16 @@
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/experience.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="50" column="6" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-31.384615">
-              <folding />
+              <folding>
+                <marker date="1382490475192" expanded="true" signature="71:491" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="518:1618" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="537:725" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="745:860" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="880:1045" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="1065:1306" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="1326:1611" placeholder="..." />
+                <marker date="1382490475192" expanded="true" signature="1636:1675" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,9 +121,16 @@
       <file leaf-file-name="js-image-slider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bullet.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/bullet.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -128,16 +153,16 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/js-image-slider.js" />
         <option value="$PROJECT_DIR$/app/views/static_pages/testimonials.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css" />
         <option value="$PROJECT_DIR$/app/views/static_pages/experience.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css" />
       </list>
     </option>
   </component>
@@ -631,7 +656,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1260" height="984" extended-state="0" />
+    <frame x="10" y="0" width="1260" height="984" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -714,20 +739,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="379" selection-end="379" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js-image-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="57" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
@@ -784,24 +795,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="96" selection-start="613" selection-end="613" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/experience.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="6" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-31.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1382490475192" expanded="true" signature="71:491" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="518:1618" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="537:725" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="745:860" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="880:1045" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="1065:1306" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="1326:1611" placeholder="..." />
+            <marker date="1382490475192" expanded="true" signature="1636:1675" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,11 +821,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.16798419">
+        <state line="24" column="24" selection-start="771" selection-end="771" vertical-scroll-proportion="-14.884615">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="68" selection-start="678" selection-end="678" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/bullet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
