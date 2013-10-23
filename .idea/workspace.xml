@@ -9,7 +9,7 @@
     <file path="/_header.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382547567766" ignored="false" />
     <file path="/footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382154079220" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382460035777" ignored="false" />
-    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382548910833" ignored="false" />
+    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382550587254" ignored="false" />
     <file path="/Gemfile" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382153324067" ignored="false" />
     <file path="/production.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382153373634" ignored="false" />
     <file path="/_footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382484364346" ignored="false" />
@@ -37,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0">
+            <state line="63" column="46" selection-start="916" selection-end="916" vertical-scroll-proportion="0.50395256">
               <folding />
             </state>
           </provider>
@@ -127,13 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bullet.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/bullet.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -161,8 +154,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/experience.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
       </list>
     </option>
   </component>
@@ -656,7 +649,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1260" height="984" extended-state="1" />
+    <frame x="10" y="0" width="1260" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -835,11 +828,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/bullet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/js-image-slider.css">
@@ -849,9 +840,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/bullet.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="46" selection-start="916" selection-end="916" vertical-scroll-proportion="0.50395256">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
