@@ -8,8 +8,7 @@ require "active_resource/railtie"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
-config.action_mailer.delivery_method   = :postmark
-config.action_mailer.postmark_settings = { :api_key => ENV['POSTMARK_API_KEY'] }
+
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -67,5 +66,8 @@ module TaborSite
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.action_mailer.delivery_method   = :postmark
+    config.action_mailer.postmark_settings = { :api_key => ENV['POSTMARK_API_KEY'] }
   end
 end
