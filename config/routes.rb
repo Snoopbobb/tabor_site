@@ -1,4 +1,6 @@
 TaborSite::Application.routes.draw do
+  resources :messages
+
   root to: 'static_pages#home'
 
   match '/portfolio', to: "static_pages#portfolio"
