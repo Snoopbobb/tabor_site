@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "bobtabor.herokuapp.com"
+  default from: "snoopbobb76@gmail.com"
 
   def send_message(message)
     @message = message
