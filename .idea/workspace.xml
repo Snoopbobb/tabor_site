@@ -79,16 +79,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="81" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.80497134">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="70" column="96" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.707457">
               <folding />
             </state>
           </provider>
@@ -115,7 +106,7 @@
       <file leaf-file-name="user_mailer.txt.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_mailer.txt.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.5384617">
+            <state line="10" column="75" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -837,51 +828,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_mailer.txt.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -900,9 +849,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_mailer.txt.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="75" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/messages/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="81" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.80497134">
+        <state line="70" column="96" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.707457">
           <folding />
         </state>
       </provider>
