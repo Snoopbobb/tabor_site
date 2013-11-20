@@ -18,7 +18,7 @@
     <file path="/static_pages_controller.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382474696397" ignored="false" />
     <file path="/testimonials.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383003422948" ignored="false" />
     <file path="/experience.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383009173370" ignored="false" />
-    <file path="/portfolio.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383009151607" ignored="false" />
+    <file path="/portfolio.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1384989451062" ignored="false" />
     <file path="/contact.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383010533724" ignored="false" />
     <file path="/about.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1384954103211" ignored="false" />
     <file path="/Dummy.txt" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383010667981" ignored="false" />
@@ -109,15 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_mailer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,19 +118,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="0.3420523">
+            <state line="10" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/messages/create.html.erb">
+      <file leaf-file-name="portfolio.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="111" selection-start="658" selection-end="658" vertical-scroll-proportion="0.035123967">
               <folding />
             </state>
           </provider>
@@ -159,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/message_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
@@ -175,6 +165,7 @@
         <option value="$PROJECT_DIR$/app/views/messages/new.html.erb" />
         <option value="$PROJECT_DIR$/public/500.html" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb" />
       </list>
     </option>
   </component>
@@ -435,6 +426,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -801,16 +814,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="444" selection-end="492" vertical-scroll-proportion="-5.230769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="17" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_mailer.txt.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="75" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
@@ -908,7 +911,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="0.3420523">
+        <state line="10" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/mtngroup.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="111" selection-start="658" selection-end="658" vertical-scroll-proportion="0.035123967">
           <folding />
         </state>
       </provider>
