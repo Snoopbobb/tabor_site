@@ -1,7 +1,7 @@
 <h1>Contact Me</h1>
 <div id="contact">
-  <h2>Send Me A Direct Message</h2>
-<%= form_for @message do |f| %>
+  <!-- <h2>Send Me A Direct Message</h2> -->
+   <%= form_for @message do |f| %>
     <% if @message.errors.any? %>
         <div class="error_messages">
           <h2>We're sorry, <%= pluralize(@message.errors.count, "error") %> prohibited this message from being sent:</h2>
@@ -12,7 +12,7 @@
           </ul>
         </div>
     <% end %>
-    <div class="field">
+    <!-- <div class="field">
       <%= f.label :name %><br />
       <%= f.text_field :name %>
     </div>
@@ -26,13 +26,15 @@
     </div>
     <div class="actions"><%= f.submit "Send Message" %></div>
 <% end %>
-</div>
+</div> -->
 
 <div id="contact_2">
   <h2>Email Me</h2>
   <h3><%= mail_to "bobtabor@q.com"%></h3>
+  <br>
   <h2>Call Me</h2>
   <h3>480-767-3309</h3>
   <br>
   <h3><%= link_to "Visit Me At LinkedIn", 'http://www.linkedin.com/pub/bob-tabor/4b/739/705', target: '_blank' %></h3>
+ </div>
 </div>
