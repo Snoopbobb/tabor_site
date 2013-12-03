@@ -18,7 +18,7 @@
     <file path="/static_pages_controller.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382474696397" ignored="false" />
     <file path="/testimonials.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383003422948" ignored="false" />
     <file path="/experience.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383009173370" ignored="false" />
-    <file path="/portfolio.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1386090363274" ignored="false" />
+    <file path="/portfolio.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1386100411898" ignored="false" />
     <file path="/contact.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383010533724" ignored="false" />
     <file path="/about.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1384954103211" ignored="false" />
     <file path="/Dummy.txt" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383010667981" ignored="false" />
@@ -108,7 +108,7 @@
       <file leaf-file-name="portfolio.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="110" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.6658986">
+            <state line="37" column="131" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.86175114">
               <folding />
             </state>
           </provider>
@@ -888,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="110" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.6658986">
+        <state line="37" column="131" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.86175114">
           <folding />
         </state>
       </provider>
