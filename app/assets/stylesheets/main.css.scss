@@ -92,12 +92,12 @@ header nav ul li a:hover {
 }
 
 #content a {
-  color: #2229bb;
+  color: #fa4248;
   text-decoration: none;
 }
 
 #content a visited {
-  color: #2229bb;
+  color: #fa4248;
 }
 
 #course_wrapper {
@@ -116,11 +116,16 @@ dt {
   margin: 0 20px 0 20px;
 }
 
-hgroup {
+#home {
+  font-family: Tahoma, helvetica, arial;
+  font-size: 18px;
+  color: #fff;
   float: left;
-  line-height: 20%;
+  line-height: 55%;
   width: 100%;
   margin: 0 auto;
+  text-outline: 2px 2px #000;
+  text-shadow: 3px 3px 3px #000;
 }
 
 .left {
