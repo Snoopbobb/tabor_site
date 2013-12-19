@@ -9,7 +9,6 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\MTN_Group_Jobs\tabor_site\app\views\static_pages\contact.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\MTN_Group_Jobs\tabor_site\app\views\user_mailer\user_mailer.text.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tabor_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,7 +116,7 @@
       <file leaf-file-name="portfolio.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="190" selection-end="190" vertical-scroll-proportion="0.11228534">
+            <state line="4" column="56" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.044914134">
               <folding />
             </state>
           </provider>
@@ -832,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="190" selection-end="190" vertical-scroll-proportion="0.11228534">
+        <state line="4" column="56" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.044914134">
           <folding />
         </state>
       </provider>
