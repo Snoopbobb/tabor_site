@@ -8,10 +8,7 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\MTN_Group_Jobs\tabor_site\app\assets\images\image-slider-5.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\MTN_Group_Jobs\tabor_site\app\views\static_pages\contact.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\MTN_Group_Jobs\tabor_site\app\views\user_mailer\user_mailer.text.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/portfolio.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tabor_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +17,7 @@
     <file path="/_header.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1388182476213" ignored="false" />
     <file path="/footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382154079220" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1382460035777" ignored="false" />
-    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1388204113992" ignored="false" />
+    <file path="/main.css.scss" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1388205056352" ignored="false" />
     <file path="/Gemfile" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383016745046" ignored="false" />
     <file path="/production.rb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383099011026" ignored="false" />
     <file path="/_footer.html.erb" changelist="1f3ce517-ca93-4f41-9fa0-b1ed1cd4a3a0" time="1383012342453" ignored="false" />
@@ -65,7 +62,7 @@
       <file leaf-file-name="main.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="18" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.89880955">
+            <state line="263" column="13" selection-start="4641" selection-end="4641" vertical-scroll-proportion="0.2579365">
               <folding />
             </state>
           </provider>
@@ -941,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="18" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.89880955">
+        <state line="263" column="13" selection-start="4641" selection-end="4641" vertical-scroll-proportion="0.2579365">
           <folding />
         </state>
       </provider>

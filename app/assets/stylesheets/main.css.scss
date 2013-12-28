@@ -118,8 +118,8 @@ header nav ul li a:hover {
 #content {
   background-color: #d7dadb;
   margin: 0 auto;
-  padding: 12px 0;
-  height: 716px;
+  padding: 0;
+  height: 750px;
   width: 95%;
   text-align: center;
   font-family: Tahoma, helvetica, arial;
@@ -261,9 +261,7 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: #000000;
-  height: 135px;
-  margin: 0;
-  padding: 12px 0;
+  height: 180px;
 }
 
 footer nav ul {
@@ -271,7 +269,9 @@ footer nav ul {
   list-style: none;
   margin: 0 25px;
   float: right;
-  font-size: 100%;
+  font-size: 120%;
+  letter-spacing: .10em;
+  padding-top: 15px;
 }
 
 footer nav ul li {
