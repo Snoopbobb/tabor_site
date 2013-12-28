@@ -111,6 +111,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #c1c4c5;
   padding: 12px 2%;
+  text-shadow: 2px 2px 2px #fd0000;
 }
 
 /* Content */
@@ -119,15 +120,13 @@ header nav ul li a:hover {
   margin: 0 auto;
   padding: 12px 0;
   height: 716px;
-  width: 90%;
+  width: 95%;
   text-align: center;
   font-family: Tahoma, helvetica, arial;
   font-size: 18px;
   color: #fff;
-  width: 100%;
-  margin: 0 auto;
   text-outline: 2px 2px #000;
-  text-shadow: 3px 3px 3px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 
 #content h1 {
@@ -139,7 +138,7 @@ header nav ul li a:hover {
   width: 100%;
   margin: 10px auto;
   text-outline: 2px 2px #000;
-  text-shadow: 3px 3px 3px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 
 #content a {
@@ -176,7 +175,7 @@ dt {
   width: 100%;
   margin: 0 auto;
   text-outline: 2px 2px #000;
-  text-shadow: 3px 3px 3px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .left {
@@ -190,7 +189,7 @@ dt {
 .left h4 {
   color: #2229bb;
   text-outline: 2px 2px #fff;
-  text-shadow: 3px 3px 3px #fff;
+  text-shadow: 2px 2px 2px #fff;
 }
 
 #clear {
@@ -198,8 +197,9 @@ dt {
 }
 
 #portfolio {
-  width: 95%;
-  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-left: 2.5%;
 }
 
 .pimg {
@@ -229,7 +229,7 @@ dt {
 #contact_2 h3 {
   color: #fa4248;
   text-outline: 2px 2px #000;
-  text-shadow: 3px 3px 3px #fff;
+  text-shadow: 2px 2px 2px #fff;
 }
 
 .field {
