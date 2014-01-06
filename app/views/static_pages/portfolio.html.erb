@@ -1,52 +1,96 @@
 <div id="portfolio">
 <h1>Portfolio Page</h1>
-<h4>These are just some of the projects I have worked on recently.</h4>
+<h4>These are just some of the projects I've built while learning web design and development.</h4>
+<h4>I built everything myself and with no prior knowledge or experience with building webpages.</h4>
 
-  <div class="port_img">
-    <%= link_to image_tag("30andb.jpg", alt: "Sample App Site", class: "port_img", size: "225x188"), 'http://30andb.com', target: '_blank' %>
+  <div class="port_cont">
+    <%= link_to image_tag("tabor_site.jpg", alt: "Bob Tabor Heroku Site", class: "pimg", size: "225x188"), root_path, target: '_blank' %>
+    <p>A Ruby on Rails site I built to show you that I can be a valuable asset to your organization.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/tabor_site', target: '_blank' %></p>
+    <p><%= link_to "You're Already Here", 'http://30andb.com', target: '_blank' %></p>
   </div>
 
-  <div class="port_img">
-    <%= link_to image_tag("6rev.jpg", alt: "6Revisions Site", class: "port_img", size: "225x188"), 'http://30andb.com/6revisions', target: '_blank' %>
+  <div class="port_cont">
+    <%= link_to image_tag("30andb.jpg", alt: "Freelance Web Designer Site", class: "pimg", size: "225x188"), 'http://30andb.com', target: '_blank' %>
+    <p>My Free Lance Website To Help Pay Bills While I Look For My Dream Job</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/30andb', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com', target: '_blank' %></p>
   </div>
 
-    <div class="port_img">
-        <%= link_to image_tag("scrd.jpg", alt: "SCR Dodgers Site", class: "port_img", size: "225x188"), 'http://30andb.com/dodgers', target: '_blank' %>
+  <div class="port_cont">
+    <%= link_to image_tag("6rev.jpg", alt: "6Revisions Site", class: "pimg", size: "225x188"), 'http://30andb.com/6revisions', target: '_blank' %>
+    <p>A design I coded from a PSD file found <%= link_to "here", 'http://www.hongkiat.com/blog/really-beautiful-psd-web-templates/', target: '_blank' %>.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/6revisions', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/6revisions', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("scrd.jpg", alt: "SCR Dodgers Site", class: "pimg", size: "225x188"), 'http://30andb.com/dodgers', target: '_blank' %>
+    <p>A page I built to share pictures of the Scottsdale Cal Ripken 8u Dodgers.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/dodgers', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/dodgers', target: '_blank' %></p>
+  </div>
+
+    <div class="port_cont">
+    <%= link_to image_tag("store.jpg", alt: "Fake Store Site", class: "pimg", size: "225x188"), 'http://btfakestore.herokuapp.com', target: '_blank' %>
+      <p>A Ruby on Rails Ecommerce App.</p>
+      <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/store', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://btfakestore.herokuapp.com', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-    <%= link_to image_tag("store.jpg", alt: "Fake Store Site", class: "port_img", size: "225x188"), 'http://btfakestore.herokuapp.com', target: '_blank' %>
+    <div class="port_cont">
+    <%= link_to image_tag("cms.jpg", alt: "Simple CMS Site", class: "pimg", size: "225x188"), 'http://btsimplecms.herokuapp.com', target: '_blank' %>
+      <p>A Ruby on Rails custom built simple CMS app.</p>
+      <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/simple_cms', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://btsimplecms.herokuapp.com', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-    <%= link_to image_tag("cms.jpg", alt: "Simple CMS Site", class: "port_img", size: "225x188"), 'http://btsimplecms.herokuapp.com', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("mtngroup1.jpg", alt: "The MTN Group Site", class: "pimg", size: "225x188"), 'http://30andb.com/themtngroup', target: '_blank' %>
+      <p>My old website for freelance work in Colorado Springs.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://30andb.com/themtngroup', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("mtngroup1.jpg", alt: "The MTN Group Site", class: "port_img", size: "225x188"), 'http://30andb.com/themtngroup', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("sbt.jpg", alt: "Select Baseball Site", class: "pimg", size: "225x188"), 'https://selectbaseballtryouts.herokuapp.com/', target: '_blank' %>
+      <p>A Ruby on Rails app to post and search for baseball tryouts.</p>
+      <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/select_baseball', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'https://selectbaseballtryouts.herokuapp.com/', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("sbt.jpg", alt: "Select Baseball Site", class: "port_img", size: "225x188"), 'https://selectbaseballtryouts.herokuapp.com/', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("csr.jpg", alt: "Colorado Sports Report Site", class: "pimg", size: "225x188"), 'http://coloradosportsreport.com', target: '_blank' %>
+      <p>A Colorado sports news webpage.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://coloradosportsreport.com', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("csr.jpg", alt: "Colorado Sports Report Site", class: "port_img", size: "225x188"), 'http://coloradosportsreport.com', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("p3.jpg", alt: "Power Pitching Site", class: "pimg", size: "225x188"), 'http://30andb.com/p3', target: '_blank' %>
+      <p>A brochure type site for a pitching training program.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://30andb.com/p3', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("p3.jpg", alt: "Power Pitching Site", class: "port_img", size: "225x188"), 'http://30andb.com/p3', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("mbl.jpg", alt: "My Baseball Lesson Site", class: "pimg", size: "225x188"), 'http://30andb.com/mbl', target: '_blank' %>
+      <p>A personal baseball lesson website.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://30andb.com/mbl', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("mbl.jpg", alt: "My Baseball Lesson Site", class: "port_img", size: "225x188"), 'http://30andb.com/mbl', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("mtngroup2.jpg", alt: "MTN Group 2.0 Site", class: "pimg", size: "225x188"), 'http://30andb.com/themtngroup2', target: '_blank' %>
+      <p>A page I built to play with javascipt scrolling effects.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://30andb.com/themtngroup2', target: '_blank' %></p>
     </div>
 
-    <div class="port_img">
-      <%= link_to image_tag("mtngroup2.jpg", alt: "MTN Group 2.0 Site", class: "port_img", size: "225x188"), 'http://30andb.com/themtngroup2', target: '_blank' %>
-    </div>
-
-    <div class="port_img">
-      <%= link_to image_tag("animation.jpg", alt: "MTN Group Animation", class: "port_img", size: "225x188"), 'http://30andb.com/mtngroupintro', target: '_blank' %>
+    <div class="port_cont">
+      <%= link_to image_tag("animation.jpg", alt: "MTN Group Animation", class: "pimg", size: "225x188"), 'http://30andb.com/mtngroupintro', target: '_blank' %>
+      <p>A funny intro to my old site that I built with Photoshop.</p>
+      <p><%= link_to "Check Out The Code", '#', target: '_blank' %></p>
+      <p><%= link_to "Visit The Site", 'http://30andb.com/mtngroupintro', target: '_blank' %></p>
     </div>
 </div>
