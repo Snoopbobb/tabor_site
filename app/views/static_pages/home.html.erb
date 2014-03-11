@@ -1,17 +1,221 @@
 <div id="home">
     <h1>My name is Bob Tabor.</h1>
-    <h1></h1>
+    <h2>I am a self taught Web Developer based in Scottsdale, AZ</h2>
+    <h2>14 months ago I didn't know anything about building websites.</h2>
+    <h2>Please take a look below at everything I've learned so far.</h2>
+
 </div>
 
-<div id="sliderFrame">
-  <div id="slider">
-    <%= link_to image_tag("mtng.jpg", alt: "The MTN Group Website Design"), 'http://30andb.com/themtngroup', target: '_blank' %>
+<div id="portfolio">
+  <h1>Portfolio</h1>
+  <h4>These are just some of the projects I've built while learning web design and development.</h4>
+  <h4>I built everything myself and with no prior knowledge or experience with building webpages.</h4>
 
-    <%= link_to image_tag("mybbl.jpg", alt: "My Baseball Lesson Website Design"), 'http://30andb.com/mbl', target: '_blank' %>
-
-    <%= link_to image_tag("ppp.jpg", alt: "Power Pitching Program Website Design"), 'http://30andb.com/p3', target: '_blank' %>
-
-    <%= link_to image_tag("web.jpg", alt: "See The Portfolio Page For More Information"), portfolio_path %>
+  <div class="port_cont">
+    <%= link_to image_tag("tabor_site.jpg", alt: "Bob Tabor Heroku Site", class: "pimg", size: "225x188"), root_path, target: '_blank' %>
+    <p>This is my personal portfolio site built using Ruby on Rails.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/tabor_site', target: '_blank' %></p>
+    <p><%= link_to "You're Already Here", 'http://30andb.com', target: '_blank' %></p>
   </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("30andb.jpg", alt: "Freelance Web Designer Site", class: "pimg", size: "225x188"), 'http://30andb.com', target: '_blank' %>
+    <p>My Free Lance Website.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/30andb', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("6rev.jpg", alt: "6Revisions Site", class: "pimg", size: "225x188"), 'http://30andb.com/6revisions', target: '_blank' %>
+    <p>A design I coded from a PSD file found <%= link_to "here", 'http://www.hongkiat.com/blog/really-beautiful-psd-web-templates/', target: '_blank' %>.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/6revisions', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/6revisions', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("scrd.jpg", alt: "SCR Dodgers Site", class: "pimg", size: "225x188"), 'http://30andb.com/dodgers', target: '_blank' %>
+    <p>A page I built to share pictures of the Scottsdale Cal Ripken 8u Dodgers.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/dodgers', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/dodgers', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("store.jpg", alt: "Fake Store Site", class: "pimg", size: "225x188"), 'http://btfakestore.herokuapp.com', target: '_blank' %>
+    <p>A Ruby on Rails Ecommerce App.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/store', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://btfakestore.herokuapp.com', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("cms.jpg", alt: "Simple CMS Site", class: "pimg", size: "225x188"), 'http://btsimplecms.herokuapp.com', target: '_blank' %>
+    <p>A Ruby on Rails custom built simple CMS app.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/simple_cms', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://btsimplecms.herokuapp.com', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("todolist.jpg", alt: "HTML5 To Do List", class: "pimg", size: "225x188"), 'http://30andb.com/todolist', target: '_blank' %>
+    <p>Simple HTML5 sortable and editable to do list.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/todolist', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/todolist', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("mtngroup1.jpg", alt: "The MTN Group Site", class: "pimg", size: "225x188"), 'http://30andb.com/themtngroup', target: '_blank' %>
+    <p>My old website for freelance work when I lived in Colorado Springs.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/mtngroup1', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/themtngroup', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("sbt.jpg", alt: "Select Baseball Site", class: "pimg", size: "225x188"), 'https://selectbaseballtryouts.herokuapp.com/', target: '_blank' %>
+    <p>A Ruby on Rails app to post and search for baseball tryouts.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/select_baseball', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'https://selectbaseballtryouts.herokuapp.com/', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("csr.jpg", alt: "Colorado Sports Report Site", class: "pimg", size: "225x188"), 'http://coloradosportsreport.com', target: '_blank' %>
+    <p>A Colorado sports news webpage.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/csr', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://coloradosportsreport.com', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("p3.jpg", alt: "Power Pitching Site", class: "pimg", size: "225x188"), 'http://30andb.com/p3', target: '_blank' %>
+    <p>A brochure type site for a pitching training program.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/p3', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/p3', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("mbl.jpg", alt: "My Baseball Lesson Site", class: "pimg", size: "225x188"), 'http://30andb.com/mbl', target: '_blank' %>
+    <p>A personal baseball lesson website.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/mybaseballlesson', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/mbl', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("mtngroup2.jpg", alt: "MTN Group 2.0 Site", class: "pimg", size: "225x188"), 'http://30andb.com/themtngroup2', target: '_blank' %>
+    <p>A page I built to play with javascipt scrolling effects.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/mtngroup2', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/themtngroup2', target: '_blank' %></p>
+  </div>
+
+  <div class="port_cont">
+    <%= link_to image_tag("animation.jpg", alt: "MTN Group Animation", class: "pimg", size: "225x188"), 'http://30andb.com/mtngroupintro', target: '_blank' %>
+    <p>A funny intro to my old site that I built with Photoshop.</p>
+    <p><%= link_to "Check Out The Code", 'https://github.com/Snoopbobb/mtngroupintro', target: '_blank' %></p>
+    <p><%= link_to "Visit The Site", 'http://30andb.com/mtngroupintro', target: '_blank' %></p>
+  </div>
+</div>
+
+<h1>2013 to Present | Freelance Web Developer and Web Designer</h1>
+
+<h4>
+  &nbsp Teaching myself and pursuing a new career in web design and development has been challenging, exciting,
+  and has reinvigorated me.  It has also given me great satisfaction knowing where I began, which was
+  absolutely knowing nothing about web design and development, knowing where I am, and knowing where I want to go.
+  Below I have listed some of the coursework I have completed while pursuing my goals.
+</h4>
+
+<div id="course_wrapper">
+  <div class="left">
+    <h4>HTML Courses</h4>
+    <h5>HTML Essential Training</h5>
+    <h5>Up and Running With HTML</h5>
+    <h5>HTML5 - Structure, Syntax, and Semantics </h5>
+    <h5>HTML5 Features, 7 Short Courses</h5>
+  </div>
+
+  <div class="left">
+    <h4>CSS Courses</h4>
+    <h5>CSS For Developers</h5>
+    <h5>CSS Fundamentals</h5>
+    <h5>CSS Positioning Best Practices</h5>
+    <h5>CSS Core Concepts</h5>
+    <h5>CSS Styling Navigation</h5>
+  </div>
+
+  <div class="left">
+    <h4>Javascript Courses</h4>
+    <h5>Javascript Essential Training</h5>
+    <h5>Javascript Events</h5>
+    <h5>Javascript and AJAX</h5>
+    <h5>jQuery Essential Training</h5>
+  </div>
+
+  <div class="left">
+    <h4>Ruby on Rails Courses</h4>
+    <h5>Ruby on Rails Tutorial</h5>
+    <h5>Ruby on Rails 3 Essential Training</h5>
+    <h5>Ruby on Rails 3 Beyond The Basics</h5>
+    <h5>Introduction to Ruby on Rails</h5>
+    <h5>Ruby Essential Training</h5>
+  </div>
+
+  <div class="left">
+    <h4>Programming/Web Graphic/Design Courses</h4>
+    <h5>PHP With MySQL Essential Training</h5>
+    <h5>Foundations of Programming Fundamentals</h5>
+    <h5>Foundations of Programming Object Oriented Design</h5>
+    <h5>Photoshop for Web Design</h5>
+    <h5>Web Design Fundamentals</h5>
+    <h5>Web Semantics</h5>
+    <h5>Responsive Design Fundamentals</h5>
+  </div>
+
+  <div class="left">
+    <h4>Software Experience</h4>
+    <h5>Notepad++</h5>
+    <h5>Sublime Text 3</h5>
+    <h5>Ruby Mine</h5>
+    <h5>PHP Storm</h5>
+    <h5>Adobe Creative Suite 6</h5>
+    <ul>
+      <li>Photoshop</li>
+      <li>Dreamweaver</li>
+      <li>Adobe Illustrator</li>
+      <li>Adobe Fireworks</li>
+    </ul>
+  </div>
+</div>
+
+<div id="clear">
+  <h2>...and many many more!</h2>
+</div>
+
+<h1>Thank you so much for visiting.</h1>
+<h4>I am a self-taught web developer.  I am an extremely hard worker, very dedicated, and very trustworthy.</h4>
+<h4>I began teaching myself web design after being laid off from my previous job in the building industry.</h4>
+<h4>After months of trying to continue on my career path in the building industry and not finding many opportunities
+  , I knew I needed to reinvent myself and choose to doing something that made me excited again.</h4>
+<h4>With no prior experience or knowledge, I began learning the skills that it takes to build web sites.</h4>
+<h4>I am very excited about my new career path and joining an organization that has the same passion and
+  enthusiasm I have.</h4>
+<h4>Please feel free to <%= link_to "Contact Me", 'messages/new' %> anytime with any questions.</h4>
+
+<h1>Testimonials</h1>
+<dl>
+  <dt>"Bob is a hard worker with the ability to follow directions.  He is always willing to do what it takes
+    to help the customer.  He always brings a positive attitude and never seems to be having a bad day.
+    Bob is an asset and I highly recommend him."</dt>
+  <dd>- Charles A.</dd>
+
+  <dt>"Bob is very personable and has a great sense of humour.  He is able to build relationships with customers
+    and knows how to bring a business attitude to all interactions.  He works hard, is consistent, reliable, and
+    is a great family man.  Bob is able to help his customers find solutions to their problems, and is always able
+    to do so in a very timely manner.  I hope you will consider hiring Bob, he is a great asset."</dt>
+  <dd>- Larry M.</dd>
+
+  <dt>"I have enjoyed working with Bob.  He is able to help his clients fix any issues they may have.  He always
+    brings a positive attitude and is quick to ask appropriate questions when the situation warrants it."</dt>
+  <dd>- Rick W.</dd>
+
+  <dt>"Bob is very responsible, reliable, and willing to take on new challenges.  He was very easy to work with.
+    I highly recommend him."</dt>
+  <dd>- Scott W.</dd>
+</dl>
+
 </div>
 
