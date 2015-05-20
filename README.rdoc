@@ -1,5 +1,5 @@
 =====  Welcome to bobtabor.herokuapp.com
 
-This is my personal website that I use to show my experience and knowledge to potential employers.
+This is an old personal website that I used to show my experience and knowledge to potential employers.
 It is a Ruby on Rails app that I designed and built using skills that I have learned myself via
 online tutorials and lynda.com videos.
